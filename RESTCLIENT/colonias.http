@@ -1,0 +1,19 @@
+GET http://localhost:8081/apiproinvest/inversionista/colonias
+
+###
+POST http://localhost:8081/apiproinvest/inversionista/informacionPersonal
+Content-Type: application/json
+
+{
+  "nombre": "Sara",
+  "apellidoPaterno": "Castillo",
+  "correoElectronico": "uno@gmail.com",
+  "telefonoCelular": "2281234567",
+  "fechaNacimiento": "2024-06-12T00:00:00.000Z",
+  "rfc": "123456789123",
+  "empresaTrabajo": "UV",
+  "gradoAcademico": "Licenciatura",
+  "profesion": "Profesor",
+  "direccionIP": "1.0.0.192.168.0.1"
+}
+
